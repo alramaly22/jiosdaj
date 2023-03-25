@@ -1,0 +1,124 @@
+.radio-group{
+    left: 54px;
+    /* right: -61px; */
+    position: relative;
+    top: 16px;
+
+}
+.radio-groupe .ko{
+    position: relative;
+    font-size: 16px;
+    right: 60px;
+    color: #707074;
+}
+.radio-groupe{
+    left: 60px;
+    /* right: -61px; */
+    position: relative;
+    top: 16px;
+
+}
+.la{
+    display: flex;
+    position: relative;
+    top: -24px;
+    right: 94px;
+}
+.radiol{
+    font-size: initial;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #747478;
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.radiol + .radiol{
+    margin-left: 20px;
+}
+.radiol input[type='radio']{
+    display: none;
+}
+.radiol span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #e01809;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.radiol span:after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s ;
+
+}
+.radiol input[type="radio"]:checked~span:after{
+    transform: translate(-50%,50%) scale(1);
+
+}
+
+
+
+
+
+
+.radio{
+    font-size: initial;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+    color: #747478;
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.radio + .radio{
+    margin-left: 20px;
+}
+.radio input[type='radio']{
+    display: none;
+}
+.radio span{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 3px solid #e01809;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.radio span:after{
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: red;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s ;
+
+}
+.radio input[type="radio"]:checked~span:after{
+    transform: translate(-50%,50%) scale(1);
+
+}
